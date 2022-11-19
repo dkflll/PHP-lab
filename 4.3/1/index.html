@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Расчет покупки</title>
+</head>
+<body>
+	<form action="pr.php" method="GET">
+		<select name="Tovar">
+			<option value="1">Блок питания</option>
+			<option value="2">Карта памяти</option>
+			<option value="3">Манипулятор "мышь"</option>
+		</select><br /><br />
+		Наличие дисконтной карты: <input type="checkbox" name="DK" /><br /><br />
+		<input type ="text" name="K" />
+		<input type="submit" value="Pассчитать" />
+	</form>
+</body>
+</html>
