@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC  "-//W3C//DTD HTML 4.01//EN" "//www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form method="post" enctype="multipart/form-data" action="tech.php">
+    <input type="file" name="picture">
+    <br>
+    <label>Тип загрузки</label>
+    <br>
+    <select name="file_type">
+        <option value="1">Эскиз</option>
+        <option value="2">Большое изображение</option>
+    </select>
+    <br>
+    <label>Поворот</label>
+    <br>
+    <input type="text" name="file_rotate">
+    <br>
+    <input type="submit" value="Загрузить">
+</form>
+</body>
+</html>
